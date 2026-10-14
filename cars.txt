@@ -1,0 +1,15 @@
+54 ?- consult(['c:/Users/tilza/OneDrive/Documents/Prolog/cars.pl']).
+true.
+
+55 ?- can_buy(100000, red).
+With 80000 you can purchase the car datsun in colour red
+true .
+
+56 ?- can_buy(100000, blue).
+With 80000 you can purchase the truck ford in colour blue
+true.
+
+57 ?- can_buy(100000, green).
+false.
+
+58 ?- 
